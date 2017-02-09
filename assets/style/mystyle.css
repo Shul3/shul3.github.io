@@ -1,0 +1,43 @@
+	
+	body {
+	background-image: url('assets/resource/monkey.JPG');
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	height: 1000px;
+	}
+	
+	h1 {
+	text-align: center;
+	}
+	table th, td {
+	border-collapse: collapse;
+	border: 1px solid black;
+	}
+	td {
+	height: 60px;
+	padding-left: 100px;
+	border-width: 5px;
+	border-color: rgb(0,255,255);
+	}
+
+	table {
+	width: 50%;
+	border-collapse: collapse;
+	margin-left: 100px;
+	}
+	
+	th {
+	background-color: green;
+	color: white;
+	}
+	a:link, a:visited {
+	display: block;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #98bf21;
+	width: 120px;
+	text-align: center;
+	padding: 4px;
+	text-decoration: none;
+	}
+	
