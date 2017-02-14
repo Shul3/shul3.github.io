@@ -1,0 +1,50 @@
+header, footer {
+    padding: 0px;
+	margin: 0px 0px;
+    color: white;
+    background-color: #D3D3D3;
+	font-size: 16px;
+	font-family: sans-serif;
+    text-align: center;
+}
+
+header {
+    border-radius: 25px;
+}
+
+aside {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav, #js {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+main {
+	margin-bottom: 15px;
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+	background-color: #808080;
+}
+
+figure {
+	margin-left: 220px;
+    
+}
