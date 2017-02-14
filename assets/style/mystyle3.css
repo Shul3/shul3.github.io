@@ -13,6 +13,7 @@ header {
 }
 
 aside {
+	border: 1px solid grey;
     float: left;
     max-width: 160px;
     margin: 0;
