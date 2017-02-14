@@ -18,8 +18,7 @@ body.container {
 }
 
 aside {
-	/*border-top: 1px solid grey;*/
-    float: left;
+	float: left;
     max-width: 160px;
     margin: 0;
     padding: 1em;
