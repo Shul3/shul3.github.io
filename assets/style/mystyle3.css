@@ -12,8 +12,13 @@ header {
     border-radius: 25px;
 }
 
+.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
 aside {
-	border-top: 1px solid grey;
+	/*border-top: 1px solid grey;*/
     float: left;
     max-width: 160px;
     margin: 0;
