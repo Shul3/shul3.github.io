@@ -40,6 +40,70 @@ h4 {
   animation-delay: 2s;
 }
 
+h5 {
+    padding: 0px;
+	margin: 0px 0px;
+    color: black;
+	background-color: yellow;
+	font-size: 12px;
+	font-family: arial;
+	text-align: left;
+    animation-duration: 3s;
+	animation-iteration-count: 3;
+	animation-play-state: running;
+	animation-delay: 4s;
+	animation-name: ex_2;
+}
+
+#java {
+  animation-duration: 5s;
+  background-color: green;
+  font-family: Times New Roman; font-style: bold;
+  text-align: right;
+  animation-name: ex_2;
+  animation-iteration-count: 3;
+  animation-direction: reverse;
+  animation-delay: 2s;
+}
+
+#news {
+  animation-duration: 5s;
+  animation-name: ex_3;
+  background-color: lightgrey;
+  box-shadow: 10px 10px 5px #888888;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  animation-delay: 2s;
+}
+
+#news1 {
+  animation-duration: 5s;
+  animation-name: ex_3;
+ 
+  animation-timing-function: linear;
+  animation-iteration-count: 5;
+  animation-direction: alternate;
+  animation-delay: 2s;
+}
+
+h6 {
+	margin-top: 100px;
+    width: 100px;
+    height:100px;
+	padding: 20px 10px;
+    background-color: grey;
+	border-radius: 25px;
+    position: relative;
+    animation-name: ex_1;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+	animation-fill-mode: backwards;
+    animation-direction: alternate;
+	animation-timing-function: ease-in; 
+	animation-delay: 5s;
+}
+
 
 @keyframes ex_1 {
     0%   {background-color:red; left:100px; top:100px;}
