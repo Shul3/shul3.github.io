@@ -1,30 +1,29 @@
 var clear = false;
  
-function update(xx){
+function update(signOper){
 
 	if(clear) {
 		reset();
 		clear = false;
 	};
 	
-	if(xx == '+' || xx == '-') {
+	if(signOper == '+' || signOper == '-') {
 		var x1 = document.getElementById("result").value;
 		var tmp = x1.substr(x1.length - 1, 1);
 		
 		if(!(tmp === '+' || tmp === '-')) 
 		{
-			var x = document.getElementById("result").value += xx;
-			var txt = x.replace("undefined","");
+			var strOper = document.getElementById("result").value += signOper;
+			var txt = strOper.replace("undefined","");
 			document.getElementById("result").innerHTML = txt;
 		}
 	}
 	else {
-		var x = document.getElementById("result").value += xx;
-		var txt = x.replace("undefined","");
+		var strOper = document.getElementById("result").value += signOper;
+		var txt = strOper.replace("undefined","");
 		document.getElementById("result").innerHTML = txt;
 	}
 	}
-09
 
     function equalto(){
 		
@@ -41,11 +40,9 @@ function update(xx){
 		}	
 	
 	}
-13
-     
-14
+  
     function reset(){
-15
+
         document.getElementById("result").innerHTML = "";
     }
 	
