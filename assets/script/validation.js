@@ -2,6 +2,8 @@ function pnCheck() {
     var x = document.getElementById("idNumber");
     var mystring = x.value;
 	
+	if(mystring.length == 10 || mystring.length == 12) {
+	
 	var numbers = new Array();
 	var sum = 0;
 	
@@ -31,6 +33,9 @@ function pnCheck() {
 	} else {
 		document.getElementById("idNumberResult").innerHTML = ' = inte Ok ';
 		x.style.background = "red";
+	}
+	} else {
+		document.getElementById("idNumberResult").innerHTML = ' = Inkorrekt nummer (YYMMDDXXXX eller YYYYMMDDXXXX)';
 	}
 	
 }
