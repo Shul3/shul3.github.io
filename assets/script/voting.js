@@ -7,6 +7,7 @@
 var num = [false,false,false,false,false];
 var rate = 0;
 
+window.onload = loadRating();
 
 function update(starNr) {
     
@@ -36,7 +37,7 @@ function update(starNr) {
 		}
 	}
 	loadDoc();
-	loadRating();
+	//loadRating();
 	
 }
 
@@ -73,7 +74,6 @@ function loadDoc() {
 }
 
 
-window.onload = loadRating();
 
 function loadRating(){
 	
