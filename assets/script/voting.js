@@ -23,7 +23,7 @@ function update(starNr) {
 		else if(x == tmp && num[x] == true) {
 			for(var y=0; y < num.length; y++) {
 				if( y > x) {
-					document.getElementById(y.toString()).style.backgroundImage = "url('brickwall.png')";
+					document.getElementById(y.toString()).style.backgroundImage = "url('/assets/resource/brickwall.png')";
 					num[y] = false;
 				}	
 			}
@@ -53,7 +53,7 @@ function normalImg(x) {
 function mOut(starNr) {
 	var tmp = parseInt(starNr);
 	if(num[tmp] == false) {
-		document.getElementById(tmp.toString()).style.backgroundImage = "url('brickwall.png')";
+		document.getElementById(tmp.toString()).style.backgroundImage = "url('/assets/resource/brickwall.png')";
 	}
 	else {
 		document.getElementById(tmp.toString()).style.background = 'red';
