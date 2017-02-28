@@ -1,0 +1,125 @@
+header, footer {
+	margin: 0px 0px;
+    color: black;
+	font-family: sans-serif;
+	background-color: sandybrown;
+}
+
+footer {
+    padding: 1px;
+	font-size: 14px;
+	text-align: left;
+}
+
+header {
+	padding: 1px;
+	/*margin: 0px 0px;*/
+	font-size: 24px;
+	/*color: black;*/
+	/*font-family: sans-serif;*/
+	text-align: center;
+    background-color: sandybrown;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+p {
+	font-size: 20px;
+}
+
+body.container {
+    width: 100%;
+	background-image: url("/assets/resource/brickwall.png");
+    background-repeat: repeat;
+	/*background-color: lightyellow;*/
+    border: 1px solid gray;
+}
+
+aside {
+	float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+
+nav, #js {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: square;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+main {
+	margin-bottom: 15px;
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+	/*background-color: #808080;*/
+}
+
+
+figure {
+	margin-left: 100px; 
+}
+
+#fig_1 {
+	margin-left: 5px;
+}
+#fig_3 {
+	margin-left: 100px;
+}
+
+.stars {
+    font-size:2em;
+    text-align:left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    /*margin-right: 0px;
+    margin-left: 0px;*/
+ 
+}
+
+
+.stars span {
+    cursor: pointer;
+}
+
+/*.stars span:hover {
+	background-color: red; 
+	content: "\263B";
+}*/
+
+.rating {
+    font-size: 15px;
+    text-align:left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+@media screen and (max-width: 500px) {
+    aside {
+        float: none;
+        width: 100%;
+        padding-left: 25%;
+        text-align: left;
+    }
+
+    main {
+        float: none;
+        width: 100%;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+}
